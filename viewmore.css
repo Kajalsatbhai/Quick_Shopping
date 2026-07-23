@@ -74,7 +74,7 @@ nav{
 }
 
 .leftBox{
-    background-color: rgb(92, 97, 225);
+    background-color: rgb(133, 135, 202);
     width: 40%;
     display: flex;
     align-items: center;
@@ -83,7 +83,7 @@ nav{
 
 }
 .rightBox{
-    background-color: rgb(129, 188, 244);
+    background-color: rgb(84, 139, 190);
     width: 60%;
     padding: 50px;
     border-radius: 0px 40px 40px 0px;
@@ -97,7 +97,7 @@ nav{
     height: 40px;
     width: 200px;
     margin-top: 50px;
-    background-color: rgb(5,84,167);
+    background-color: rgb(61, 107, 156);
     border: none;
     border-radius: 20px;
     color: azure;
@@ -149,7 +149,7 @@ nav{
     border: none;
     color: azure;
     font-size: 18px;
-    background-color: deepskyblue;
+    background-color: rgb(108, 155, 188)
 }
     
 

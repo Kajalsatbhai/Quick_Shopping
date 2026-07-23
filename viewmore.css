@@ -74,7 +74,7 @@ nav{
 }
 
 .leftBox{
-    background-color: rgb(133, 135, 202);
+    background-color:rgb(228, 217, 215);
     width: 40%;
     display: flex;
     align-items: center;
@@ -83,7 +83,7 @@ nav{
 
 }
 .rightBox{
-    background-color: rgb(84, 139, 190);
+    background-color:rgb(172, 125, 125);
     width: 60%;
     padding: 50px;
     border-radius: 0px 40px 40px 0px;
@@ -97,10 +97,10 @@ nav{
     height: 40px;
     width: 200px;
     margin-top: 50px;
-    background-color: rgb(61, 107, 156);
+    background-color: rgb(157, 95, 95);
     border: none;
     border-radius: 20px;
-    color: azure;
+    color: rgb(236, 232, 232);
     cursor: pointer;
 }
 
@@ -125,7 +125,7 @@ nav{
 }
 
 .review_Card{
-    background-color: chocolate;
+    background-color: rgb(170, 150, 152);
     border-radius: 20px;
     padding: 10px;
     margin-top: 10px;

@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+nav{
+    background-color: rgb(197, 197, 148);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    /* width: 100vw; */
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid black;
+}
+#logo{
+    height: 100%;
+    width: 130px;
+}
+#logo_box{
+    height:100%;
+    width:150px ;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+#search_Container{
+    height: 100%;
+    width: 300px;
+    /* background-attachment: yellow; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+#search_Container >input{
+    margin-left: 30px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    height:40px;
+    width:100% ;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+
+#link{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+#link > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+#root{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+    padding-left: 75px;
+    padding-top: 50px;
+    background-color: rgb(215, 206, 204);
+    height:6000px ;
+
+}
+.card{
+    background-color: rgb(167, 198, 209);
+    height: 500px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(159, 119, 119);
+}
+.img_Container{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid;
+    background-color: white;
+
+}
+.img_Container > img {
+    height: 100%;
+    width: auto;
+    
+}
+
+.main_container {
+    height: 40%;
+    padding: 20px;
+    
+}
+.viewContainer{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(162,144,144);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.viewContainer > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span{
+    font-weight: bolder;
+    color: rgb(130, 101, 101);
+
+}
+#popUp{
+    height: 60vh;
+    width: 50vw;
+    background-color: blanchedalmond;
+    position: fixed;
+    top: 150px;
+    left: 350px;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 0px black ;
+}
+#btn{
+    height: 30px;
+    width: 60px;
+    background-color: rgb(212, 129, 129);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+#popUp{
+    height: 420px;
+    width: 350px;
+    background: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    box-shadow: 0 0 25px rgba(0, 0, 0,.4);
+    z-index: 100;
+}
+
+#popUp input{
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+#loginBtn{
+    width: 80%;
+    height: 40px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    cursor: pointer;
+}

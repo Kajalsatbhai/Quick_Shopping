@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+nav{
+    background-color: rgb(197, 197, 148);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    /* width: 100vw; */
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid black;
+}
+#logo{
+    height: 100%;
+    width: 130px;
+}
+#logo_box{
+    height:100%;
+    width:150px ;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+#search_Container{
+    height: 100%;
+    width: 300px;
+    /* background-attachment: yellow; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+#search_Container >input{
+    margin-left: 30px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    height:40px;
+    width:100% ;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+
+#link{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+#link > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+.box{
+    display: flex;
+    height:500px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px black;
+
+}
+
+.leftBox{
+    background-color: rgb(92, 97, 225);
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px 0px 0px 40px;
+
+}
+.rightBox{
+    background-color: rgb(129, 188, 244);
+    width: 60%;
+    padding: 50px;
+    border-radius: 0px 40px 40px 0px;
+}
+
+.productTitle{
+    font-weight: bold;
+}
+
+#para ~button{
+    height: 40px;
+    width: 200px;
+    margin-top: 50px;
+    background-color: rgb(5,84,167);
+    border: none;
+    border-radius: 20px;
+    color: azure;
+    cursor: pointer;
+}
+
+ #reviews{
+    height: 500px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgb(226, 163, 163);
+    background-color: antiquewhite;
+    padding: 30px;
+
+}
+#product ~ h1 {
+    text-align: center;
+
+}
+.reviewHead {
+    display: flex;
+    margin-top: 20px;
+}
+
+.review_Card{
+    background-color: chocolate;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+} 
+
+#newReview{
+    height: 40px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px solid gray;
+}
+
+#newReview ~ button{
+    height: 40px;
+    width: 200px;
+    margin-top: 25px;
+    border-radius: 20px;
+    border: none;
+    color: azure;
+    font-size: 18px;
+    background-color: deepskyblue;
+}
+    
+
+
+
+
+
+
+
+
+*/
+
